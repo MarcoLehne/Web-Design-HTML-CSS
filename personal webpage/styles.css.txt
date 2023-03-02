@@ -1,0 +1,193 @@
+:root{
+  --color1:rgb(71, 71, 71);
+  --color2:rgb(215, 90, 90);
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family:calibri, sans-serif;
+  background-color:black;
+}
+
+a{
+  text-decoration:none;
+  color:white;
+}
+
+#navbar{
+  position: fixed;
+  top: 0;
+  padding-top:4px;
+  width: 100%;
+  height:80px;
+  background-color:var(--color2);
+  text-align:right;
+  border-bottom:3px solid rgb(78, 78, 78);
+}
+
+.navbar a{
+  padding:20px;
+  font-size:30px;
+  height:100%;
+  position:relative;
+  top:14px;
+}
+
+#welcome-section{
+  height:100vh;
+  background-color:var(--color1);
+  /* text-align:center; */
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+#welcome-section h1{
+  color:white;
+  font-size:60px;
+}
+
+#welcome-section h2{
+  color:var(--color2);
+  font-size:30px;
+  font-style:italic;
+  font-weight:normal;
+}
+
+#projects{
+  text-align:center;
+  background-color:rgb(32, 71, 127);
+  padding-top:80px;
+  height:calc(100vh - 80px);
+  min-height:calc(100vh - 80px); max-height:calc(100vh - 80px);
+}
+
+#work h1{
+  font-size:40px;
+  color:white;
+  border-bottom:3px solid white;
+  margin:auto;
+  margin-bottom:30px;
+  width:600px;
+}
+
+main{
+  display:flex;
+  flex-direction:column;
+}
+
+#examples{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  margin:auto;
+  width:1000px;
+  row-gap:20px;
+}
+
+img{
+  width:300px;
+  height:300px;
+  object-fit:cover;
+}
+
+.fig-caption{
+  display:flex;
+  margin:0;
+  padding:0;
+  background-color:var(--color1);
+  width:300px;
+  padding-top:20px;
+  padding-bottom:20px;
+  justify-content:center;
+}
+
+
+.fig-caption p{
+  margin:0;
+  padding:0;
+  display:inline;
+  
+}
+
+
+#project-tile:hover  .fig-p-before:after{
+    content:'\00a0 <\00a0 ';
+    white-space:normal;
+    color:orange;
+}
+
+#profile-link{
+  background-color:var(--color1);
+  border:0;
+  padding:20px;
+  width:200px;
+  height:80px;
+  position:relative;
+  top:50px;
+
+}
+
+#profile-link:hover{
+  background-color:var(--color2);
+}
+
+#project-tile:hover  .fig-p-after:after{
+    content:'\00a0 />';
+    white-space:normal;
+    color:orange;
+}
+
+#project-tile{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+#contact{
+  padding-top:300px;
+  background-color:var(--color1);
+  height:calc(100vh - 580px);
+  text-align:center;
+  border-bottom:3px solid var(--color2);;
+}
+
+#profiles{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  width:500px;
+  margin:auto;
+}
+
+
+#imprint{
+  background-color:var(--color1);
+  height:100px;
+  text-align:right;
+  padding-right:60px;
+  color:white;
+}
+
+#contact h1,h2{
+  color:white;
+}
+
+#contact h2{
+  font-size:18px;
+  font-style:italic;
+}
+
+#profiles i{
+  text-shadow: 2px 2px black;
+}
+.i-text{
+  font-family:calibri;
+}
+
+
+@media only screen and (max-width:1000px)
+{
+
+}

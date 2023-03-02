@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="#welcome-section">About</a>
+      <a href="#projects">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <main>
+      <div id="welcome-section">
+        <h1>Hey I am Marco</h1>
+        <h2>a web developer</h2>
+      </div>
+      <div id="projects">
+        <h1>These are some of my projects</h1>
+        <div id="examples">
+          <a href="https://codepen.io/freeCodeCamp/full/zNqgVx">
+          <div class="project-tile">
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"/>
+            <div class="fig-caption"><p class="fig-p-before"></p><figcaption>Tribute Page</figcation><p class="fig-p-after"></p>
+            </div>
+          </div>
+          </a>
+          <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ"><div id="example-project"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"/><div class="fig-caption"><p class="fig-p-before"></p><figcaption>Random Quote Machine</figcation><p class="fig-p-after"></p>
+            </div></div></a>
+          <a href="https://codepen.io/freeCodeCamp/full/wgGVVX"><div id="example-project"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"/><div class="fig-caption"><p class="fig-p-before"></p><figcaption>JavaScript Calculator</figcation><p class="fig-p-after"></p>
+            </div></div></a>
+          <a href="https://codepen.io/freeCodeCamp/full/mVEJag"><div id="example-project"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"/><div class="fig-caption"><p class="fig-p-before"></p><figcaption>Map Data Across the Globe</figcation><p class="fig-p-after"></p>
+            </div></div></a>
+          <a href="https://codepen.io/freeCodeCamp/full/wGqEga"><div id="example-project"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"/><div class="fig-caption"><p class="fig-p-before"></p><figcaption>Wikipedia Viewer</figcation><p class="fig-p-after"></p>
+            </div></div></a>
+          <a href="https://codepen.io/freeCodeCamp/full/KzXQgy"><div id="example-project"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"/><div class="fig-caption"><p class="fig-p-before"></p><figcaption>Tic Tac Toe Game</figcation><p class="fig-p-after"></p>
+            </div></div></a>
+        </div>
+        <a id="profile-link" target="_blank" href="https://codepen.io/FreeCodeCamp/">Show All
+        </a>
+      
+      </div>
+      <div id="contact">
+        <h1>Let's work together...</h1>
+        <h2>How do you take your coffee?</h2>
+        <div id="profiles">
+          <div id="profile">
+            <a href="">
+            <i class="fab fa-facebook"><span class="i-text">Facebook</span></i>
+            </a>
+          </div>
+          <div id="profile">
+            <a href="">
+            <i class="fab fa-github"><span class="i-text">Github</span></i>
+            </a>
+          </div>
+          <div id="profile">
+            <a href="">
+            <i class="fab fa-twitter"><span class="i-text">Twitter</span></i>
+            </a>
+          </div>
+          <div id="profile">
+            <a href="">
+            <i class="fas fa-at">Email</i>
+            </a>
+          </div>
+          <div id="profile">
+            <a href="">
+            <i class="fas fa-mobile"><span class="i-text">Call Me</span></i>
+            </a>
+          </div>
+        </div> 
+      </div>
+      <footer id="imprint">
+        <h3>©Marco Lehne</h3>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+body{
+  font-family:calibri, sans-serif;
+  background-color:#eaeaea;
+}
+
+header{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+justify-content:space-between;
+    position: sticky;   
+
+    top: 0; 
+}
+
+.title-div{
+  display:flex;
+  align-items:center;
+}
+
+.nav-link{
+  text-decoration:none;
+  color:black;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:stretch;
+  width:30%;
+  position:relative;
+  right:20px;
+}
+
+main{
+  padding-top:60px;
+  margin:auto;
+  width:700px;
+  align-items:center;
+  display:flex;
+  flex-direction:column;
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+  margin:auto;
+  justify-content:space-evenly;
+}
+
+form h1, #email, #submit{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#submit, #select{
+  margin-top:20px;
+  background-color:rgb(255, 255, 102);
+  border:0;
+  padding:15px;
+  font-weight:bold;
+}
+.prices{
+  width:auto;
+  margin:auto;
+}
+
+.price-box{
+  padding:40px;
+}
+
+i{
+  color:orange;
+}
+
+
+img{
+  color:orange;
+}
+
+#features{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.feature{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+.feature i{
+  margin-right:30px;
+}
+.feature-text h1{
+  padding:0;
+  margin-bottom:0;
+}
+.feature-text p{
+  margin-top:0;
+}
+
+@media only screen and(min-width: 600){
+  
+.prices{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-direction:row;
+}
+}
+
+
+i{
+  font-size:50px;
+}
+
+iframe{
+  margin-top:60px;
+  margin-bottom:60px;
+}
+
+.prices{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.price-box{
+  border:1px solid black;
+  padding:20px;
+  display:flex;
+  justify-content:stretch;
+}
+
+.trombone-name{
+  background-color:white;
+  width:100%;
+}
+
+footer{
+  max-width:600px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  justify-content:right;
+  align-items:end;
+}
+footer div{
+  display:flex;
+  justify-content:space-between;
+  align-items:stretch;
+  width:30%;
+  position:relative;
+  right:20px;
+}
